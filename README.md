@@ -1,7 +1,8 @@
 # CRUD-Cloud-Firestore
-1. System for Mobile Android (JAVA)
-2. Database using Google Cloud Firestore 
-3. Develop using Android Studio Arctic Fox | 2020.3.1
+1. System for Mobile Android
+2. Written in Java and XML
+3. Database using Google Cloud Firestore 
+4. Develop using Android Studio Arctic Fox | 2020.3.1
 # Setup / How to start ?
 1. Create new project > empty activity
 2. Connect to Cloud Firestore: Tools > Firebase > Cloud Firestore > Connect to Firebase
