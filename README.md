@@ -11,7 +11,7 @@
 9. Go to console.firebase.google.com > Cloud Firestore > Create database > Start in test mode > Next and Enable
 10. Suppose database has been created !
 11. Now start coding...
-# Instruction 
+# Functionality 
 12. Insert name and age (max 3 digits) then click button "CREATE" to add data
 13. Click button "SHOW DATA" to view all records
 14. Slide right to delete data
