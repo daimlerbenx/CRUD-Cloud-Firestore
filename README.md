@@ -1,18 +1,45 @@
 # CRUD-Cloud-Firestore
-1. System for Mobile Android
-2. Written in Java and XML
-3. Database via Google Cloud Firestore 
-4. Develop using Android Studio Arctic Fox | 2020.3.1
-# Setup / How to start ?
-5. Create new project > empty activity
-6. Connect to Cloud Firestore: Tools > Firebase > Cloud Firestore > Connect to Firebase
-7. Add or choose existing project on Firebase console > Connect 
-8. Go to Android Studio and add Cloud Firestore to your app > Accept changes
-9. Go to console.firebase.google.com > Cloud Firestore > Create database > Start in test mode > Next and Enable
-10. Suppose database has been created !
-11. Now start coding...
-# Functionality 
-12. Insert name and age (max 3 digits) then click button "CREATE" to add data
-13. Click button "SHOW DATA" to view all records
-14. Slide right to delete data
-15. Slide left to edit data
+
+**CRUD-Cloud-Firestore** is an Android application for managing employee data using Google Cloud Firestore as the database. Developed using Java and XML in Android Studio Arctic Fox (2020.3.1), this app provides basic Create, Read, Update, and Delete (CRUD) functionalities. 
+
+## Features
+
+- **Create**: Add new employee records with name and age.
+- **Read**: View a list of all employee records.
+- **Update**: Edit existing employee records.
+- **Delete**: Remove employee records from the database.
+
+## Setup / How to Start
+
+1. **Create a New Project**: Open Android Studio and create a new project with an Empty Activity.
+2. **Connect to Cloud Firestore**:
+   - Navigate to **Tools > Firebase**.
+   - Select **Cloud Firestore** and click **Connect to Firebase**.
+   - Add or choose an existing Firebase project and follow the prompts to connect.
+3. **Add Firestore to Your App**: In Android Studio, accept the changes to add Cloud Firestore to your app.
+4. **Create Firestore Database**:
+   - Go to [Firebase Console](https://console.firebase.google.com/).
+   - Navigate to **Cloud Firestore** and click **Create database**.
+   - Start in Test Mode, then click **Next** and **Enable**.
+
+## Functionality
+
+- **Insert Data**: Enter a name and age (up to 3 digits) in the input fields and click the "CREATE" button to add a new record to Firestore.
+- **Show Data**: Click the "SHOW DATA" button to display all records in a RecyclerView.
+- **Delete Data**: Swipe right on an item to delete it from the database.
+- **Edit Data**: Swipe left on an item to edit its details.
+
+## Files
+
+- **MainActivity.java**: Manages the creation and updating of employee records.
+- **Model.java**: Defines the data structure for employee records.
+- **ReadActivity.java**: Displays a list of employee records and supports swipe actions for editing and deleting.
+- **TouchHelper.java**: Handles swipe gestures for editing and deleting records in the RecyclerView.
+
+## Screenshots
+
+*Include screenshots of the application in action here.*
+
+## Contributing
+
+Feel free to submit issues or pull requests if you have suggestions for improvements or new features.
